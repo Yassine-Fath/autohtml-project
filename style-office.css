@@ -1,0 +1,513 @@
+.fourth-case-study,
+.fourth-case-study * {
+  box-sizing: border-box;
+}
+.fourth-case-study {
+  background: var(--white, #ffffff);
+  width: 1440px;
+  height: 3511px;
+  position: relative;
+  overflow: hidden;
+}
+.navigation-header {
+  background: var(--white, #ffffff);
+  padding: 24px 160px 24px 160px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 1440px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.logo {
+  flex-shrink: 0;
+  width: 90px;
+  height: 28px;
+  position: relative;
+  overflow: hidden;
+}
+.fath {
+  color: #000000;
+  text-align: left;
+  font-family: var(--title-heading-4-font-family, "WorkSans-Bold", sans-serif);
+  font-size: var(--title-heading-4-font-size, 24px);
+  font-weight: var(--title-heading-4-font-weight, 700);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.menu-links {
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.home {
+  flex-shrink: 0;
+  width: 52px;
+  height: 30px;
+  position: relative;
+}
+.home2 {
+  color: var(--true-gray-700, #404040);
+  text-align: left;
+  font-family: var(--body-regular-font-family, "WorkSans-Medium", sans-serif);
+  font-size: var(--body-regular-font-size, 18px);
+  line-height: var(--body-regular-line-height, 28px);
+  font-weight: var(--body-regular-font-weight, 500);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.work {
+  flex-shrink: 0;
+  width: 46px;
+  height: 30px;
+  position: relative;
+}
+.selected {
+  width: 74px;
+  height: 3px;
+  position: absolute;
+  left: -9.5px;
+  top: 27px;
+  overflow: visible;
+}
+.portfolio {
+  color: var(--true-gray-900, #0c0b0b);
+  text-align: center;
+  font-family: var(
+    --body-semibold-font-family,
+    "WorkSans-SemiBold",
+    sans-serif
+  );
+  font-size: var(--body-semibold-font-size, 18px);
+  line-height: var(--body-semibold-line-height, 28px);
+  font-weight: var(--body-semibold-font-weight, 600);
+  position: absolute;
+  left: -23.5px;
+  top: 1px;
+  width: 102px;
+}
+.about {
+  flex-shrink: 0;
+  width: 53px;
+  height: 30px;
+  position: relative;
+}
+.about2 {
+  color: var(--true-gray-700, #404040);
+  text-align: left;
+  font-family: var(--body-regular-font-family, "WorkSans-Medium", sans-serif);
+  font-size: var(--body-regular-font-size, 18px);
+  line-height: var(--body-regular-line-height, 28px);
+  font-weight: var(--body-regular-font-weight, 500);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.social {
+  background: var(--white, #ffffff);
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.icon-mail {
+  flex-shrink: 0;
+  width: 32px;
+  height: 32px;
+  position: relative;
+  overflow: visible;
+}
+.icon {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+}
+.hero {
+  width: 1120px;
+  height: 571px;
+  position: absolute;
+  left: 160px;
+  top: 160px;
+}
+.high-rise-office-building {
+  color: var(--true-gray-900, #0c0b0b);
+  text-align: center;
+  font-family: var(--title-heading-2-font-family, "WorkSans-Bold", sans-serif);
+  font-size: var(--title-heading-2-font-size, 48px);
+  font-weight: var(--title-heading-2-font-weight, 700);
+  position: absolute;
+  left: 222px;
+  top: 0px;
+}
+.applying-biomimicry-to-architecture-this-design-endeavours-to-replicate-the-organic-form-of-a-mountain-within-the-intricate-structure-of-a-modern-office-building {
+  color: var(--true-gray-700, #404040);
+  text-align: center;
+  font-family: var(--body-regular-font-family, "WorkSans-Medium", sans-serif);
+  font-size: var(--body-regular-font-size, 18px);
+  line-height: var(--body-regular-line-height, 28px);
+  font-weight: var(--body-regular-font-weight, 500);
+  position: absolute;
+  left: 225px;
+  top: 72px;
+  width: 670px;
+}
+.rectangle-2 {
+  width: 1120px;
+  height: 383px;
+  position: absolute;
+  left: 0px;
+  top: 188px;
+}
+.body {
+  width: 740px;
+  height: 1984px;
+  position: absolute;
+  left: 446px;
+  top: 771px;
+}
+.the-design-process-for-the-high-rise-office-building-in-ningbo-city-china-proved-to-be-a-challenging-yet-fulfilling-endeavor-factors-such-as-the-structural-system-fire-prevention-protocols-and-compliance-with-design-codes-were-critical-considerations-for-ensuring-the-building-s-safety-and-functionality-paramount-among-these-was-the-structural-system-demanding-meticulous-attention-to-withstand-natural-forces-like-earthquakes-and-high-winds-additionally-we-carefully-assessed-the-load-bearing-capacity-and-stability-opting-for-a-robust-combination-of-steel-and-concrete-to-construct-a-resilient-and-durable-structure-capable-of-enduring-the-rigors-of-nature {
+  color: var(--true-gray-800, #282828);
+  text-align: left;
+  font-family: var(--body-regular-font-family, "WorkSans-Medium", sans-serif);
+  font-size: var(--body-regular-font-size, 18px);
+  line-height: var(--body-regular-line-height, 28px);
+  font-weight: var(--body-regular-font-weight, 500);
+  position: absolute;
+  left: 0px;
+  top: 48px;
+  width: 670px;
+}
+.in-this-building-design-i-tried-to-illustrate-my-biomimicry-ideology-by-implying-a-form-that-resembles-a-mountain-by-cutting-parts-of-the-building-and-adding-external-staircases-surrounding-the-building-forming-an-up-rising-way-that-connects-most-of-the-building-floors-this-form-also-allowed-me-to-showcase-the-various-zones-in-the-building-with-different-facades-the-final-shape-was-a-result-of-a-series-of-cut-and-fill-strategies-which-granted-me-the-ability-to-have-a-skeleton-structure-building-composed-of-an-external-glass-curtain-the-main-structure-of-the-building-consists-of-a-core-which-is-the-main-support-system-in-the-building-in-addition-to-column-grids-added-on-every-floor-that-contains-many-open-office-spaces {
+  color: var(--true-gray-800, #282828);
+  text-align: left;
+  font-family: var(--body-regular-font-family, "WorkSans-Medium", sans-serif);
+  font-size: var(--body-regular-font-size, 18px);
+  line-height: var(--body-regular-line-height, 28px);
+  font-weight: var(--body-regular-font-weight, 500);
+  position: absolute;
+  left: 0px;
+  top: 747px;
+  width: 451px;
+}
+.div {
+  opacity: 0.30000001192092896;
+  width: 81px;
+  height: 64px;
+  position: absolute;
+  left: 722px;
+  top: 999px;
+  transform: translate(-81px, -64px);
+  overflow: visible;
+}
+.the-implementation-of-fire-prevention-protocols-was-a-pivotal-consideration-in-our-design-we-took-great-care-to-outfit-the-building-with-essential-fire-safety-measures-including-fire-alarms-sprinkler-systems-and-fire-doors-thoughtful-planning-also-went-into-establishing-effective-evacuation-routes-and-strategically-placing-fire-exits-crucial-elements-to-ensure-the-building-s-safety-in-the-event-of-a-fire {
+  color: var(--true-gray-800, #282828);
+  text-align: left;
+  font-family: var(--body-regular-font-family, "WorkSans-Medium", sans-serif);
+  font-size: var(--body-regular-font-size, 18px);
+  line-height: var(--body-regular-line-height, 28px);
+  font-weight: var(--body-regular-font-weight, 500);
+  position: absolute;
+  left: 0px;
+  top: 1274px;
+  width: 670px;
+}
+.ultimately-we-needed-to-address-the-design-code-prerequisites-essential-for-securing-approval-from-local-authorities-ensuring-compliance-with-pertinent-regulations-and-codes-encompassing-building-fire-and-safety-codes-was-imperative-additionally-a-conscientious-consideration-of-aesthetic-elements-including-materials-colours-and-the-overall-design-was-crucial-to-align-the-building-with-both-regulatory-standards-and-visual-harmony {
+  color: var(--true-gray-800, #282828);
+  text-align: left;
+  font-family: var(--body-regular-font-family, "WorkSans-Medium", sans-serif);
+  font-size: var(--body-regular-font-size, 18px);
+  line-height: var(--body-regular-line-height, 28px);
+  font-weight: var(--body-regular-font-weight, 500);
+  position: absolute;
+  left: 0px;
+  top: 1868px;
+  width: 670px;
+}
+.rectangle-1 {
+  width: 451px;
+  height: 320px;
+  position: absolute;
+  left: 285px;
+  top: 348px;
+}
+.rectangle-3 {
+  width: 740px;
+  height: 320px;
+  position: absolute;
+  left: 0px;
+  top: 1471px;
+}
+.intro {
+  color: var(--true-gray-800, #282828);
+  text-align: left;
+  font-family: var(--title-heading-4-font-family, "WorkSans-Bold", sans-serif);
+  font-size: var(--title-heading-4-font-size, 24px);
+  font-weight: var(--title-heading-4-font-weight, 700);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.technical-drawings {
+  color: var(--true-gray-800, #282828);
+  text-align: left;
+  font-family: var(--title-heading-4-font-family, "WorkSans-Bold", sans-serif);
+  font-size: var(--title-heading-4-font-size, 24px);
+  font-weight: var(--title-heading-4-font-weight, 700);
+  position: absolute;
+  left: 0px;
+  top: 699px;
+}
+.technology {
+  color: var(--true-gray-800, #282828);
+  text-align: left;
+  font-family: var(--title-heading-4-font-family, "WorkSans-Bold", sans-serif);
+  font-size: var(--title-heading-4-font-size, 24px);
+  font-weight: var(--title-heading-4-font-weight, 700);
+  position: absolute;
+  left: 0px;
+  top: 1224px;
+}
+.aesthetics {
+  color: var(--true-gray-800, #282828);
+  text-align: left;
+  font-family: var(--title-heading-4-font-family, "WorkSans-Bold", sans-serif);
+  font-size: var(--title-heading-4-font-size, 24px);
+  font-weight: var(--title-heading-4-font-weight, 700);
+  position: absolute;
+  left: 0px;
+  top: 1820px;
+}
+.rectangle-24 {
+  width: 286px;
+  height: 320px;
+  position: absolute;
+  left: 0px;
+  top: 348px;
+}
+.rectangle-25 {
+  width: 297px;
+  height: 477px;
+  position: absolute;
+  left: 451px;
+  top: 747px;
+}
+.rectangle-32 {
+  width: 371px;
+  height: 320px;
+  position: absolute;
+  left: 815px;
+  top: 2858px;
+}
+.rectangle-4 {
+  width: 369px;
+  height: 320px;
+  position: absolute;
+  left: 446px;
+  top: 2858px;
+}
+.index {
+  width: 220px;
+  height: 208px;
+  position: absolute;
+  left: 160px;
+  top: 771px;
+}
+.table-of-contents {
+  color: var(--true-gray-800, #282828);
+  text-align: left;
+  font-family: var(--secondary-bold-font-family, "WorkSans-Bold", sans-serif);
+  font-size: var(--secondary-bold-font-size, 14px);
+  line-height: var(--secondary-bold-line-height, 24px);
+  font-weight: var(--secondary-bold-font-weight, 700);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.index2 {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 0px;
+  top: 40px;
+}
+.rectangle-33 {
+  background: var(--true-gray-800, #282828);
+  flex-shrink: 0;
+  width: 4px;
+  height: 24px;
+  position: relative;
+}
+.content-selected {
+  color: var(--true-gray-800, #282828);
+  text-align: left;
+  font-family: var(
+    --body-mobile-regular-font-family,
+    "WorkSans-Medium",
+    sans-serif
+  );
+  font-size: var(--body-mobile-regular-font-size, 16px);
+  line-height: var(--body-mobile-regular-line-height, 24px);
+  font-weight: var(--body-mobile-regular-font-weight, 500);
+  position: relative;
+  width: 200px;
+}
+.index3 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 0px;
+  top: 88px;
+}
+.content-name {
+  color: var(--true-gray-800, #282828);
+  text-align: left;
+  font-family: var(
+    --body-mobile-regular-font-family,
+    "WorkSans-Medium",
+    sans-serif
+  );
+  font-size: var(--body-mobile-regular-font-size, 16px);
+  line-height: var(--body-mobile-regular-line-height, 24px);
+  font-weight: var(--body-mobile-regular-font-weight, 500);
+  position: relative;
+}
+.index4 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 0px;
+  top: 136px;
+}
+.index5 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 0px;
+  top: 184px;
+}
+.navigation-footer {
+  background: var(--white, #ffffff);
+  padding: 24px 160px 24px 160px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 1440px;
+  position: absolute;
+  left: 0px;
+  top: 3431px;
+  box-shadow: inset 0px 1px 0px 0px rgba(229, 229, 229, 1);
+  overflow: hidden;
+}
+.text {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.fath-yassine {
+  color: var(--true-gray-500, #737373);
+  text-align: left;
+  font-family: var(
+    --secondary-regular-font-family,
+    "WorkSans-Medium",
+    sans-serif
+  );
+  font-size: var(--secondary-regular-font-size, 14px);
+  line-height: var(--secondary-regular-line-height, 24px);
+  font-weight: var(--secondary-regular-font-weight, 500);
+  position: relative;
+}
+.div2 {
+  color: var(--true-gray-500, #737373);
+  text-align: left;
+  font-family: var(
+    --secondary-regular-font-family,
+    "WorkSans-Medium",
+    sans-serif
+  );
+  font-size: var(--secondary-regular-font-size, 14px);
+  line-height: var(--secondary-regular-line-height, 24px);
+  font-weight: var(--secondary-regular-font-weight, 500);
+  position: relative;
+}
+.feel-free-to-drop-a-hello-fathyassine-20-gmail-com {
+  color: var(--true-gray-500, #737373);
+  text-align: left;
+  font-family: var(
+    --secondary-regular-font-family,
+    "WorkSans-Medium",
+    sans-serif
+  );
+  font-size: var(--secondary-regular-font-size, 14px);
+  line-height: var(--secondary-regular-line-height, 24px);
+  font-weight: var(--secondary-regular-font-weight, 500);
+  position: relative;
+}
+.social2 {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.icon-mail2 {
+  flex-shrink: 0;
+  width: 32px;
+  height: 32px;
+  position: relative;
+  overflow: visible;
+}
+.icon2 {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+.icon3 {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+.icon4 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 1260px;
+  top: 28px;
+  overflow: visible;
+}

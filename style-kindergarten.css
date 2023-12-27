@@ -1,0 +1,499 @@
+.fifth-case-study,
+.fifth-case-study * {
+  box-sizing: border-box;
+}
+.fifth-case-study {
+  background: var(--white, #ffffff);
+  width: 1440px;
+  height: 3511px;
+  position: relative;
+  overflow: hidden;
+}
+.navigation-header {
+  background: var(--white, #ffffff);
+  padding: 24px 160px 24px 160px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 1440px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.logo {
+  flex-shrink: 0;
+  width: 90px;
+  height: 28px;
+  position: relative;
+  overflow: hidden;
+}
+.fath {
+  color: #000000;
+  text-align: left;
+  font-family: var(--title-heading-4-font-family, "WorkSans-Bold", sans-serif);
+  font-size: var(--title-heading-4-font-size, 24px);
+  font-weight: var(--title-heading-4-font-weight, 700);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.menu-links {
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.home {
+  flex-shrink: 0;
+  width: 52px;
+  height: 30px;
+  position: relative;
+}
+.home2 {
+  color: var(--true-gray-700, #404040);
+  text-align: left;
+  font-family: var(--body-regular-font-family, "WorkSans-Medium", sans-serif);
+  font-size: var(--body-regular-font-size, 18px);
+  line-height: var(--body-regular-line-height, 28px);
+  font-weight: var(--body-regular-font-weight, 500);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.work {
+  flex-shrink: 0;
+  width: 46px;
+  height: 30px;
+  position: relative;
+}
+.selected {
+  width: 74px;
+  height: 3px;
+  position: absolute;
+  left: -9.5px;
+  top: 27px;
+  overflow: visible;
+}
+.portfolio {
+  color: var(--true-gray-900, #0c0b0b);
+  text-align: center;
+  font-family: var(
+    --body-semibold-font-family,
+    "WorkSans-SemiBold",
+    sans-serif
+  );
+  font-size: var(--body-semibold-font-size, 18px);
+  line-height: var(--body-semibold-line-height, 28px);
+  font-weight: var(--body-semibold-font-weight, 600);
+  position: absolute;
+  left: -23.5px;
+  top: 1px;
+  width: 102px;
+}
+.about {
+  flex-shrink: 0;
+  width: 53px;
+  height: 30px;
+  position: relative;
+}
+.about2 {
+  color: var(--true-gray-700, #404040);
+  text-align: left;
+  font-family: var(--body-regular-font-family, "WorkSans-Medium", sans-serif);
+  font-size: var(--body-regular-font-size, 18px);
+  line-height: var(--body-regular-line-height, 28px);
+  font-weight: var(--body-regular-font-weight, 500);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.social {
+  background: var(--white, #ffffff);
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.icon-mail {
+  flex-shrink: 0;
+  width: 32px;
+  height: 32px;
+  position: relative;
+  overflow: visible;
+}
+.icon {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+}
+.hero {
+  width: 1120px;
+  height: 571px;
+  position: absolute;
+  left: 160px;
+  top: 160px;
+}
+.happy-place-kindergarten {
+  color: var(--true-gray-900, #0c0b0b);
+  text-align: center;
+  font-family: var(--title-heading-2-font-family, "WorkSans-Bold", sans-serif);
+  font-size: var(--title-heading-2-font-size, 48px);
+  font-weight: var(--title-heading-2-font-weight, 700);
+  position: absolute;
+  left: 199px;
+  top: 0px;
+}
+.a-visionary-concept-to-establish-a-delightful-space-where-children-can-simultaneously-have-fun-and-engage-in-active-learning-the-aim-is-to-create-an-immersive-environment-that-fosters-enjoyable-and-enriching-experiences-for-young-minds {
+  color: var(--true-gray-700, #404040);
+  text-align: center;
+  font-family: var(--body-regular-font-family, "WorkSans-Medium", sans-serif);
+  font-size: var(--body-regular-font-size, 18px);
+  line-height: var(--body-regular-line-height, 28px);
+  font-weight: var(--body-regular-font-weight, 500);
+  position: absolute;
+  left: 225px;
+  top: 72px;
+  width: 670px;
+}
+.rectangle-2 {
+  width: 1120px;
+  height: 383px;
+  position: absolute;
+  left: 0px;
+  top: 188px;
+}
+.body {
+  width: 740px;
+  height: 1984px;
+  position: absolute;
+  left: 446px;
+  top: 771px;
+}
+.welcome-to-the-conceptualization-of-a-kindergarten-nestled-near-ningbo-university-campus-in-the-vibrant-city-of-ningbo-amidst-the-hustle-and-bustle-of-an-international-students-hostel-a-hotel-and-residential-communities-the-challenge-lies-in-cultivating-a-tranquil-haven-for-young-learners-restricted-by-a-designated-height-the-design-intricacies-unfold-within-a-two-story-framework-demanding-precision-and-inventive-problem-solving-skills-this-unique-kindergarten-design-carefully-crafted-to-harmonize-with-its-surroundings-places-a-premium-on-meeting-the-specific-needs-and-requirements-of-children-comprising-six-classrooms-oriented-towards-the-south-the-design-prioritizes-optimal-daylight-exposure-in-adherence-to-the-chinese-code-for-kindergarten-design-join-us-on-a-journey-to-explore-the-nuanced-artistry-and-thoughtful-planning-behind-this-educational-sanctuary {
+  color: var(--true-gray-800, #282828);
+  text-align: left;
+  font-family: var(--body-regular-font-family, "WorkSans-Medium", sans-serif);
+  font-size: var(--body-regular-font-size, 18px);
+  line-height: var(--body-regular-line-height, 28px);
+  font-weight: var(--body-regular-font-weight, 500);
+  position: absolute;
+  left: 0px;
+  top: 48px;
+  width: 670px;
+}
+.the-concept-involved-the-creation-of-distinct-class-unit-blocks-strategically-oriented-towards-the-south-to-maximize-exposure-to-natural-daylight-these-blocks-were-seamlessly-linked-through-connecting-corridors-to-enhance-functionality-an-additional-building-block-was-incorporated-ensuring-cohesive-connectivity-through-a-corridor-network-integrating-outdoor-spaces-several-courtyards-were-strategically-placed-between-the-buildings-and-unit-classrooms-these-courtyards-not-only-served-as-dedicated-playground-areas-for-each-unit-but-also-facilitated-the-penetration-of-daylight-into-interior-spaces-furthermore-a-bridge-system-was-thoughtfully-introduced-to-unify-the-overall-design-providing-a-comprehensive-running-course-for-children-to-exercise-and-enjoy-their-daily-activities {
+  color: var(--true-gray-800, #282828);
+  text-align: left;
+  font-family: var(--body-regular-font-family, "WorkSans-Medium", sans-serif);
+  font-size: var(--body-regular-font-size, 18px);
+  line-height: var(--body-regular-line-height, 28px);
+  font-weight: var(--body-regular-font-weight, 500);
+  position: absolute;
+  left: 3px;
+  top: 831px;
+  width: 670px;
+}
+.div {
+  opacity: 0.30000001192092896;
+  width: 81px;
+  height: 64px;
+  position: absolute;
+  left: 722px;
+  top: 999px;
+  transform: translate(-81px, -64px);
+  overflow: visible;
+}
+.given-the-unique-context-of-designing-a-kindergarten-the-emphasis-lies-in-creating-an-environment-rich-in-vibrant-colors-and-engaging-themes-this-intentional-approach-aims-to-captivate-the-attention-of-children-inspiring-them-to-express-their-creativity-and-foster-a-sense-of-exploration-the-incorporation-of-a-diverse-color-palette-and-imaginative-themes-is-strategic-transforming-the-space-into-an-inviting-canvas-that-sparks-the-curiosity-and-imagination-of-young-minds-moreover-geometric-shapes-stand-out-as-a-predominant-source-of-inspiration-throughout-the-design-from-the-overall-building-structure-to-the-configuration-of-the-playground-and-furniture-a-deliberate-adherence-to-geometric-shapes-lends-a-cohesive-and-visually-stimulating-aspect-to-the-entire-environment-this-choice-not-only-contributes-to-a-playful-and-aesthetically-pleasing-atmosphere-but-also-introduces-an-educational-element-as-children-interact-with-and-navigate-through-geometric-forms-as-part-of-their-daily-surroundings-the-intentional-fusion-of-color-variety-and-geometric-design-principles-creates-a-dynamic-and-purposeful-setting-for-the-kindergarten-fostering-an-environment-where-learning-and-creativity-flourish-hand-in-hand {
+  color: var(--true-gray-800, #282828);
+  text-align: left;
+  font-family: var(--body-regular-font-family, "WorkSans-Medium", sans-serif);
+  font-size: var(--body-regular-font-size, 18px);
+  line-height: var(--body-regular-line-height, 28px);
+  font-weight: var(--body-regular-font-weight, 500);
+  position: absolute;
+  left: 0px;
+  top: 1617px;
+  width: 670px;
+}
+.rectangle-1 {
+  width: 455px;
+  height: 320px;
+  position: absolute;
+  left: 282px;
+  top: 443px;
+}
+.intro {
+  color: var(--true-gray-800, #282828);
+  text-align: left;
+  font-family: var(--title-heading-4-font-family, "WorkSans-Bold", sans-serif);
+  font-size: var(--title-heading-4-font-size, 24px);
+  font-weight: var(--title-heading-4-font-weight, 700);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.technical-drawings {
+  color: var(--true-gray-800, #282828);
+  text-align: left;
+  font-family: var(--title-heading-4-font-family, "WorkSans-Bold", sans-serif);
+  font-size: var(--title-heading-4-font-size, 24px);
+  font-weight: var(--title-heading-4-font-weight, 700);
+  position: absolute;
+  left: -4px;
+  top: 783px;
+}
+.aesthetics {
+  color: var(--true-gray-800, #282828);
+  text-align: left;
+  font-family: var(--title-heading-4-font-family, "WorkSans-Bold", sans-serif);
+  font-size: var(--title-heading-4-font-size, 24px);
+  font-weight: var(--title-heading-4-font-weight, 700);
+  position: absolute;
+  left: 0px;
+  top: 1568px;
+}
+.rectangle-24 {
+  width: 286px;
+  height: 159px;
+  position: absolute;
+  left: -3px;
+  top: 443px;
+}
+.rectangle-25 {
+  width: 286px;
+  height: 171px;
+  position: absolute;
+  left: -4px;
+  top: 592px;
+  overflow: visible;
+}
+.rectangle-3 {
+  width: 375px;
+  height: 320px;
+  position: absolute;
+  left: 365px;
+  top: 1218px;
+}
+.rectangle-26 {
+  width: 365px;
+  height: 162px;
+  position: absolute;
+  left: 0px;
+  top: 1218px;
+}
+.rectangle-27 {
+  width: 365px;
+  height: 158px;
+  position: absolute;
+  left: 0px;
+  top: 1380px;
+}
+.rectangle-32 {
+  width: 722px;
+  height: 320px;
+  position: absolute;
+  left: 446px;
+  top: 2933px;
+}
+.index {
+  width: 220px;
+  height: 208px;
+  position: absolute;
+  left: 160px;
+  top: 771px;
+}
+.table-of-contents {
+  color: var(--true-gray-800, #282828);
+  text-align: left;
+  font-family: var(--secondary-bold-font-family, "WorkSans-Bold", sans-serif);
+  font-size: var(--secondary-bold-font-size, 14px);
+  line-height: var(--secondary-bold-line-height, 24px);
+  font-weight: var(--secondary-bold-font-weight, 700);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.index2 {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 0px;
+  top: 40px;
+}
+.rectangle-33 {
+  background: var(--true-gray-800, #282828);
+  flex-shrink: 0;
+  width: 4px;
+  height: 24px;
+  position: relative;
+}
+.content-selected {
+  color: var(--true-gray-800, #282828);
+  text-align: left;
+  font-family: var(
+    --body-mobile-regular-font-family,
+    "WorkSans-Medium",
+    sans-serif
+  );
+  font-size: var(--body-mobile-regular-font-size, 16px);
+  line-height: var(--body-mobile-regular-line-height, 24px);
+  font-weight: var(--body-mobile-regular-font-weight, 500);
+  position: relative;
+  width: 200px;
+}
+.index3 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 0px;
+  top: 88px;
+}
+.content-name {
+  color: var(--true-gray-800, #282828);
+  text-align: left;
+  font-family: var(
+    --body-mobile-regular-font-family,
+    "WorkSans-Medium",
+    sans-serif
+  );
+  font-size: var(--body-mobile-regular-font-size, 16px);
+  line-height: var(--body-mobile-regular-line-height, 24px);
+  font-weight: var(--body-mobile-regular-font-weight, 500);
+  position: relative;
+}
+.index4 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 0px;
+  top: 136px;
+}
+.index5 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 0px;
+  top: 184px;
+}
+.navigation-footer {
+  background: var(--white, #ffffff);
+  padding: 24px 160px 24px 160px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 1440px;
+  position: absolute;
+  left: 0px;
+  top: 3431px;
+  box-shadow: inset 0px 1px 0px 0px rgba(229, 229, 229, 1);
+  overflow: hidden;
+}
+.text {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.fath-yassine {
+  color: var(--true-gray-500, #737373);
+  text-align: left;
+  font-family: var(
+    --secondary-regular-font-family,
+    "WorkSans-Medium",
+    sans-serif
+  );
+  font-size: var(--secondary-regular-font-size, 14px);
+  line-height: var(--secondary-regular-line-height, 24px);
+  font-weight: var(--secondary-regular-font-weight, 500);
+  position: relative;
+}
+.div2 {
+  color: var(--true-gray-500, #737373);
+  text-align: left;
+  font-family: var(
+    --secondary-regular-font-family,
+    "WorkSans-Medium",
+    sans-serif
+  );
+  font-size: var(--secondary-regular-font-size, 14px);
+  line-height: var(--secondary-regular-line-height, 24px);
+  font-weight: var(--secondary-regular-font-weight, 500);
+  position: relative;
+}
+.feel-free-to-drop-a-hello-fathyassine-20-gmail-com {
+  color: var(--true-gray-500, #737373);
+  text-align: left;
+  font-family: var(
+    --secondary-regular-font-family,
+    "WorkSans-Medium",
+    sans-serif
+  );
+  font-size: var(--secondary-regular-font-size, 14px);
+  line-height: var(--secondary-regular-line-height, 24px);
+  font-weight: var(--secondary-regular-font-weight, 500);
+  position: relative;
+}
+.social2 {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.icon-mail2 {
+  flex-shrink: 0;
+  width: 32px;
+  height: 32px;
+  position: relative;
+  overflow: visible;
+}
+.icon2 {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+.icon3 {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+.icon4 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 1260px;
+  top: 28px;
+  overflow: visible;
+}

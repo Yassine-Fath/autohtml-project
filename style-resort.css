@@ -1,0 +1,528 @@
+.third-case-study,
+.third-case-study * {
+  box-sizing: border-box;
+}
+.third-case-study {
+  background: var(--white, #ffffff);
+  width: 1440px;
+  height: 3511px;
+  position: relative;
+  overflow: hidden;
+}
+.navigation-header {
+  background: var(--white, #ffffff);
+  padding: 24px 160px 24px 160px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 1440px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.logo {
+  flex-shrink: 0;
+  width: 90px;
+  height: 28px;
+  position: relative;
+  overflow: hidden;
+}
+.fath {
+  color: #000000;
+  text-align: left;
+  font-family: var(--title-heading-4-font-family, "WorkSans-Bold", sans-serif);
+  font-size: var(--title-heading-4-font-size, 24px);
+  font-weight: var(--title-heading-4-font-weight, 700);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.menu-links {
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.home {
+  flex-shrink: 0;
+  width: 52px;
+  height: 30px;
+  position: relative;
+}
+.home2 {
+  color: var(--true-gray-700, #404040);
+  text-align: left;
+  font-family: var(--body-regular-font-family, "WorkSans-Medium", sans-serif);
+  font-size: var(--body-regular-font-size, 18px);
+  line-height: var(--body-regular-line-height, 28px);
+  font-weight: var(--body-regular-font-weight, 500);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.work {
+  flex-shrink: 0;
+  width: 46px;
+  height: 30px;
+  position: relative;
+}
+.selected {
+  width: 74px;
+  height: 3px;
+  position: absolute;
+  left: -9.5px;
+  top: 27px;
+  overflow: visible;
+}
+.portfolio {
+  color: var(--true-gray-900, #0c0b0b);
+  text-align: center;
+  font-family: var(
+    --body-semibold-font-family,
+    "WorkSans-SemiBold",
+    sans-serif
+  );
+  font-size: var(--body-semibold-font-size, 18px);
+  line-height: var(--body-semibold-line-height, 28px);
+  font-weight: var(--body-semibold-font-weight, 600);
+  position: absolute;
+  left: -23.5px;
+  top: 1px;
+  width: 102px;
+}
+.about {
+  flex-shrink: 0;
+  width: 53px;
+  height: 30px;
+  position: relative;
+}
+.about2 {
+  color: var(--true-gray-700, #404040);
+  text-align: left;
+  font-family: var(--body-regular-font-family, "WorkSans-Medium", sans-serif);
+  font-size: var(--body-regular-font-size, 18px);
+  line-height: var(--body-regular-line-height, 28px);
+  font-weight: var(--body-regular-font-weight, 500);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.social {
+  background: var(--white, #ffffff);
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.icon-mail {
+  flex-shrink: 0;
+  width: 32px;
+  height: 32px;
+  position: relative;
+  overflow: visible;
+}
+.icon {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+}
+.hero {
+  width: 1120px;
+  height: 571px;
+  position: absolute;
+  left: 160px;
+  top: 160px;
+}
+.ningbo-international-resort {
+  color: var(--true-gray-900, #0c0b0b);
+  text-align: center;
+  font-family: var(--title-heading-2-font-family, "WorkSans-Bold", sans-serif);
+  font-size: var(--title-heading-2-font-size, 48px);
+  font-weight: var(--title-heading-2-font-weight, 700);
+  position: absolute;
+  left: 161px;
+  top: 0px;
+}
+.an-international-resort-with-a-water-front-beautiful-scenery-located-in-ningbo-china {
+  color: var(--true-gray-700, #404040);
+  text-align: center;
+  font-family: var(--body-regular-font-family, "WorkSans-Medium", sans-serif);
+  font-size: var(--body-regular-font-size, 18px);
+  line-height: var(--body-regular-line-height, 28px);
+  font-weight: var(--body-regular-font-weight, 500);
+  position: absolute;
+  left: 225px;
+  top: 72px;
+  width: 670px;
+}
+.rectangle-2 {
+  width: 1120px;
+  height: 383px;
+  position: absolute;
+  left: 0px;
+  top: 188px;
+}
+.body {
+  width: 740px;
+  height: 1984px;
+  position: absolute;
+  left: 446px;
+  top: 771px;
+}
+.last-year-i-had-the-pleasure-of-designing-a-resort-near-ningbo-university-a-project-close-to-my-heart-nestled-along-the-waterfront-the-site-s-scenic-beauty-inspired-careful-consideration-in-the-design-process-the-focal-point-is-a-main-building-housing-regular-guest-bedrooms-including-both-single-and-double-bed-accommodations-alongside-the-addition-of-ten-charming-individual-villas {
+  color: var(--true-gray-800, #282828);
+  text-align: left;
+  font-family: var(--body-regular-font-family, "WorkSans-Medium", sans-serif);
+  font-size: var(--body-regular-font-size, 18px);
+  line-height: var(--body-regular-line-height, 28px);
+  font-weight: var(--body-regular-font-weight, 500);
+  position: absolute;
+  left: 0px;
+  top: 48px;
+  width: 670px;
+}
+.the-primary-focus-of-this-design-was-optimizing-sunlight-exposure-and-lake-views-for-guest-bedrooms-and-villas-while-ensuring-efficient-circulation-achieving-an-effective-solution-involved-multiple-adjustments-to-the-site-s-form-initial-steps-included-marking-entrances-creating-open-spaces-in-the-middle-for-external-functions-and-strategically-rotating-building-levels-to-introduce-diversity-later-utilized-for-rooftop-gardens-in-the-villas-to-enhance-lake-views-a-combination-of-terraces-and-balconies-was-employed-providing-depth-and-panoramic-perspectives-the-design-also-incorporated-diverse-materials-for-contrast-and-visual-appeal-additionally-a-thoughtful-selection-of-plants-and-trees-contributed-to-a-natural-ambiance-fostering-both-a-sense-of-privacy-and-environmental-harmony {
+  color: var(--true-gray-800, #282828);
+  text-align: left;
+  font-family: var(--body-regular-font-family, "WorkSans-Medium", sans-serif);
+  font-size: var(--body-regular-font-size, 18px);
+  line-height: var(--body-regular-line-height, 28px);
+  font-weight: var(--body-regular-font-weight, 500);
+  position: absolute;
+  left: -6px;
+  top: 639px;
+  width: 670px;
+}
+.div {
+  opacity: 0.30000001192092896;
+  width: 81px;
+  height: 64px;
+  position: absolute;
+  left: 722px;
+  top: 999px;
+  transform: translate(-81px, -64px);
+  overflow: visible;
+}
+.creating-a-good-circulation-system-is-essential-for-any-site-design-by-using-a-combination-of-pathways-stairs-and-ramps-i-was-able-to-create-a-sense-of-flow-and-provide-easy-access-to-the-different-areas-of-the-site-pathways-are-the-most-common-form-of-circulation-and-they-provide-a-direct-route-from-one-area-to-another-stairs-are-a-great-way-to-add-vertical-circulation-allowing-people-to-move-between-different-levels-of-the-site-ramps-are-also-a-great-way-to-provide-access-to-areas-that-may-not-be-accessible-by-stairs {
+  color: var(--true-gray-800, #282828);
+  text-align: left;
+  font-family: var(--body-regular-font-family, "WorkSans-Medium", sans-serif);
+  font-size: var(--body-regular-font-size, 18px);
+  line-height: var(--body-regular-line-height, 28px);
+  font-weight: var(--body-regular-font-weight, 500);
+  position: absolute;
+  left: -10px;
+  top: 1323px;
+  width: 670px;
+}
+.in-addition-to-the-pathways-stairs-and-ramps-i-also-used-a-variety-of-materials-to-create-a-sense-of-contrast-and-to-add-visual-interest-to-the-design-for-example-i-used-different-colours-of-stone-and-brick-to-create-a-patterned-effect-and-i-used-different-textures-of-wood-and-metal-to-create-a-more-dynamic-look-i-also-used-plants-and-other-natural-elements-to-create-a-sense-of-harmony-and-to-add-a-touch-of-nature-to-the-design {
+  color: var(--true-gray-800, #282828);
+  text-align: left;
+  font-family: var(--body-regular-font-family, "WorkSans-Medium", sans-serif);
+  font-size: var(--body-regular-font-size, 18px);
+  line-height: var(--body-regular-line-height, 28px);
+  font-weight: var(--body-regular-font-weight, 500);
+  position: absolute;
+  left: 0px;
+  top: 1868px;
+  width: 670px;
+}
+.rectangle-1 {
+  width: 455px;
+  height: 320px;
+  position: absolute;
+  left: 285px;
+  top: 236px;
+}
+.rectangle-3 {
+  width: 740px;
+  height: 273px;
+  position: absolute;
+  left: -6px;
+  top: 1547px;
+}
+.rectangle-26 {
+  width: 481px;
+  height: 320px;
+  position: absolute;
+  left: 253px;
+  top: 947px;
+}
+.intro {
+  color: var(--true-gray-800, #282828);
+  text-align: left;
+  font-family: var(--title-heading-4-font-family, "WorkSans-Bold", sans-serif);
+  font-size: var(--title-heading-4-font-size, 24px);
+  font-weight: var(--title-heading-4-font-weight, 700);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.technical-drawings {
+  color: var(--true-gray-800, #282828);
+  text-align: left;
+  font-family: var(--title-heading-4-font-family, "WorkSans-Bold", sans-serif);
+  font-size: var(--title-heading-4-font-size, 24px);
+  font-weight: var(--title-heading-4-font-weight, 700);
+  position: absolute;
+  left: -6px;
+  top: 587px;
+}
+.technology {
+  color: var(--true-gray-800, #282828);
+  text-align: left;
+  font-family: var(--title-heading-4-font-family, "WorkSans-Bold", sans-serif);
+  font-size: var(--title-heading-4-font-size, 24px);
+  font-weight: var(--title-heading-4-font-weight, 700);
+  position: absolute;
+  left: -10px;
+  top: 1281px;
+}
+.aesthetics {
+  color: var(--true-gray-800, #282828);
+  text-align: left;
+  font-family: var(--title-heading-4-font-family, "WorkSans-Bold", sans-serif);
+  font-size: var(--title-heading-4-font-size, 24px);
+  font-weight: var(--title-heading-4-font-weight, 700);
+  position: absolute;
+  left: 0px;
+  top: 1820px;
+}
+.rectangle-24 {
+  width: 286px;
+  height: 159px;
+  position: absolute;
+  left: 0px;
+  top: 236px;
+}
+.rectangle-25 {
+  width: 286px;
+  height: 171px;
+  position: absolute;
+  left: -1px;
+  top: 385px;
+  overflow: visible;
+}
+.rectangle-262 {
+  width: 263px;
+  height: 156px;
+  position: absolute;
+  left: 436px;
+  top: 1718px;
+}
+.rectangle-27 {
+  width: 263px;
+  height: 164px;
+  position: absolute;
+  left: 436px;
+  top: 1874px;
+}
+.rectangle-32 {
+  width: 740px;
+  height: 320px;
+  position: absolute;
+  left: 440px;
+  top: 2831px;
+}
+.index {
+  width: 220px;
+  height: 208px;
+  position: absolute;
+  left: 160px;
+  top: 771px;
+}
+.table-of-contents {
+  color: var(--true-gray-800, #282828);
+  text-align: left;
+  font-family: var(--secondary-bold-font-family, "WorkSans-Bold", sans-serif);
+  font-size: var(--secondary-bold-font-size, 14px);
+  line-height: var(--secondary-bold-line-height, 24px);
+  font-weight: var(--secondary-bold-font-weight, 700);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.index2 {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 0px;
+  top: 40px;
+}
+.rectangle-33 {
+  background: var(--true-gray-800, #282828);
+  flex-shrink: 0;
+  width: 4px;
+  height: 24px;
+  position: relative;
+}
+.content-selected {
+  color: var(--true-gray-800, #282828);
+  text-align: left;
+  font-family: var(
+    --body-mobile-regular-font-family,
+    "WorkSans-Medium",
+    sans-serif
+  );
+  font-size: var(--body-mobile-regular-font-size, 16px);
+  line-height: var(--body-mobile-regular-line-height, 24px);
+  font-weight: var(--body-mobile-regular-font-weight, 500);
+  position: relative;
+  width: 200px;
+}
+.index3 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 0px;
+  top: 88px;
+}
+.content-name {
+  color: var(--true-gray-800, #282828);
+  text-align: left;
+  font-family: var(
+    --body-mobile-regular-font-family,
+    "WorkSans-Medium",
+    sans-serif
+  );
+  font-size: var(--body-mobile-regular-font-size, 16px);
+  line-height: var(--body-mobile-regular-line-height, 24px);
+  font-weight: var(--body-mobile-regular-font-weight, 500);
+  position: relative;
+}
+.index4 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 0px;
+  top: 136px;
+}
+.index5 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 0px;
+  top: 184px;
+}
+.navigation-footer {
+  background: var(--white, #ffffff);
+  padding: 24px 160px 24px 160px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 1440px;
+  position: absolute;
+  left: 0px;
+  top: 3431px;
+  box-shadow: inset 0px 1px 0px 0px rgba(229, 229, 229, 1);
+  overflow: hidden;
+}
+.text {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.fath-yassine {
+  color: var(--true-gray-500, #737373);
+  text-align: left;
+  font-family: var(
+    --secondary-regular-font-family,
+    "WorkSans-Medium",
+    sans-serif
+  );
+  font-size: var(--secondary-regular-font-size, 14px);
+  line-height: var(--secondary-regular-line-height, 24px);
+  font-weight: var(--secondary-regular-font-weight, 500);
+  position: relative;
+}
+.div2 {
+  color: var(--true-gray-500, #737373);
+  text-align: left;
+  font-family: var(
+    --secondary-regular-font-family,
+    "WorkSans-Medium",
+    sans-serif
+  );
+  font-size: var(--secondary-regular-font-size, 14px);
+  line-height: var(--secondary-regular-line-height, 24px);
+  font-weight: var(--secondary-regular-font-weight, 500);
+  position: relative;
+}
+.feel-free-to-drop-a-hello-fathyassine-20-gmail-com {
+  color: var(--true-gray-500, #737373);
+  text-align: left;
+  font-family: var(
+    --secondary-regular-font-family,
+    "WorkSans-Medium",
+    sans-serif
+  );
+  font-size: var(--secondary-regular-font-size, 14px);
+  line-height: var(--secondary-regular-line-height, 24px);
+  font-weight: var(--secondary-regular-font-weight, 500);
+  position: relative;
+}
+.social2 {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.icon-mail2 {
+  flex-shrink: 0;
+  width: 32px;
+  height: 32px;
+  position: relative;
+  overflow: visible;
+}
+.icon2 {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+.icon3 {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+.icon4 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 1260px;
+  top: 28px;
+  overflow: visible;
+}
